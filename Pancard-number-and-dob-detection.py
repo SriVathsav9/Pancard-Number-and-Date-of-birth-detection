@@ -14,7 +14,7 @@ import imutils
 img = cv2.imread('3657993.jpg')
 
 a=int(input("Enter the angle to be rotated"))  
-# read an image as input using OpenCV
+
 
   
 Rotated_image = imutils.rotate(img, a)
